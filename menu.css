@@ -1,0 +1,23 @@
+.menu {
+  font-family: 'Calibri';
+  text-align: center;
+  
+}
+
+.menu li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 15px;
+}
+
+.menu a {
+  padding: 20px;
+  color: #000000;
+  display: inline-block;
+  text-decoration: none;
+}
+
+
+.menu li:hover, .current{
+    border-bottom: 2px solid #000000;
+}
